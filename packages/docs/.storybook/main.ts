@@ -1,4 +1,5 @@
 import {StorybookConfig} from "@storybook/react-vite";
+import * as sass from 'sass';
 
 const config: StorybookConfig = {
   stories: ["../src/pages/**/*.mdx", "../src/stories/**/*.stories.tsx"],

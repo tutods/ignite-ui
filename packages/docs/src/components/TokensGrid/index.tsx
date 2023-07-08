@@ -1,24 +1,16 @@
-import styles from './styles.module.css';
+import styles from './styles.module.scss';
 
 type Props = {
   tokens: Record<string, string>;
 };
 
 export const TokensGrid = ({ tokens }: Props) => (
-  <table className={styles.table}>
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Value</th>
-      </tr>
-    </thead>
-    <tbody>
-      {Object.entries(tokens).map(([key, value]) => (
-        <tr key={key}>
-          <td>{key}</td>
-          <td>{value}</td>
-        </tr>
-      ))}
-    </tbody>
-  </table>
+  <div className={styles.grid}>
+    {Object.entries(tokens).map(([key, value]) => (
+      <div key={key}>
+        <strong>{key}</strong>
+        <span>{value}</span>
+      </div>
+    ))}
+  </div>
 );
