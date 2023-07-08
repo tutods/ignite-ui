@@ -319,7 +319,7 @@ bower_components
 build/Release
 
 # Dependency directories
-packages/tokens/node_modules/
+node_modules/
 jspm_packages/
 
 # Snowpack dependency directory (https://snowpack.dev/)
@@ -655,3 +655,9 @@ $RECYCLE.BIN/
 
 # Build folder #
 dist
+
+# Storybook #
+storybook-static
+
+# Turbo Repo folder #
+.turbo

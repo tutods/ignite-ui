@@ -1,10 +1,14 @@
- {
-   "license": "MIT",
-   "scripts": {
-
-   },
-   "private": true,
-   "workspaces": [
-     "packages/*"
-   ]
- }
+{
+  "license": "MIT",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel"
+  },
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "turbo": "^1.10.7"
+  }
+}
