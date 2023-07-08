@@ -1,4 +1,4 @@
-import styles from '../styles/TokensGrid.module.css';
+import styles from './styles.module.css';
 
 type Props = {
   tokens: Record<string, string>;
