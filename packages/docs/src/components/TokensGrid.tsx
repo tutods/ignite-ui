@@ -1,4 +1,4 @@
-import styles from './styles.module.scss';
+import '../styles/TokensGrid.scss';
 
 type Props = {
   tokens: Record<string, string>;
@@ -6,7 +6,7 @@ type Props = {
 };
 
 export const TokensGrid = ({ hasRemValue = false, tokens }: Props) => (
-  <div className={styles.grid}>
+  <div className="grid">
     {Object.entries(tokens).map(([key, value]) => (
       <div key={key}>
         <strong>{key}</strong>
