@@ -2,14 +2,21 @@ import styles from './styles.module.scss';
 
 type Props = {
   tokens: Record<string, string>;
+  hasRemValue?: boolean;
 };
 
-export const TokensGrid = ({ tokens }: Props) => (
+export const TokensGrid = ({ hasRemValue = false, tokens }: Props) => (
   <div className={styles.grid}>
     {Object.entries(tokens).map(([key, value]) => (
       <div key={key}>
         <strong>{key}</strong>
-        <span>{value}</span>
+
+        <p>
+          <span>{value}</span>
+          {hasRemValue && (
+            <span>{Number(value.replace('rem', '')) * 16}px</span>
+          )}
+        </p>
       </div>
     ))}
   </div>
