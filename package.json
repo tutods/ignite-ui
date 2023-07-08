@@ -1,0 +1,10 @@
+ {
+   "license": "MIT",
+   "scripts": {
+
+   },
+   "private": true,
+   "workspaces": [
+     "packages/*"
+   ]
+ }

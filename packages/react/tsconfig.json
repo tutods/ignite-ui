@@ -1,0 +1,10 @@
+{
+  "extends": "@tutods-ignite-ui/ts-config/react.json",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["src"]
+}

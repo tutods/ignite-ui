@@ -1,0 +1,7 @@
+{
+  "extends": "@tutods-ignite-ui/ts-config/react.json",
+  "include": [
+    "./src",
+    "./vite.config.ts"
+  ]
+}

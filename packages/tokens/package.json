@@ -1,0 +1,31 @@
+{
+  "name": "@tutods-ignite-ui/tokens",
+  "version": "0.0.1",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "license": "MIT",
+  "author": {
+    "name": "Daniel Sousa @TutoDS",
+    "url": "https://github.com/tutods"
+  },
+  "keywords": [
+    "design-system",
+    "tokens",
+    "rocketseat",
+    "ignite"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "dev": "tsup src/index.ts --format esm,cjs --dts --watch",
+    "lint": "eslint src/**/*.ts* --fix"
+  },
+  "devDependencies": {
+    "@tutods-ignite-ui/ts-config": "*",
+    "@tutods/eslint-config": "^0.6.4",
+    "eslint": "^8.44.0",
+    "prettier": "^3.0.0",
+    "tsup": "^7.1.0",
+    "typescript": "^5.1.6"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "@tutods-ignite-ui/ts-config",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": {
+    "name": "Daniel Sousa @TutoDS",
+    "url": "https://github.com/tutods"
+  },
+  "keywords": [
+    "design-system",
+    "config",
+    "typescript",
+    "tsconfig",
+    "rocketseat",
+    "ignite"
+  ]
+}
