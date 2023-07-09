@@ -24,3 +24,5 @@ export const Button = styled('button', {
     },
   },
 });
+
+export * from '@/components/Box';
