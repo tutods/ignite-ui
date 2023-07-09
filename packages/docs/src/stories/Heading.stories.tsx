@@ -5,7 +5,7 @@ import { Heading } from '@tutods-ignite-ui/react';
 export default {
   argTypes: {
     as: {
-      description: 'This property allows you to change the render element',
+      description: 'The HTML Element to render, by default is a `h2`',
       type: 'string',
     },
     size: {

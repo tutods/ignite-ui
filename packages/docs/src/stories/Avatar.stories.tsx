@@ -1,42 +1,20 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import type { HeadingProps } from '@tutods-ignite-ui/react';
-import { Heading } from '@tutods-ignite-ui/react';
+import type { AvatarProps } from '@tutods-ignite-ui/react';
+import { Avatar } from '@tutods-ignite-ui/react';
 
 export default {
-  argTypes: {
-    as: {
-      description: 'The HTML Element to render, by default is a `h2`',
-      type: 'string',
-    },
-    size: {
-      control: {
-        type: 'select',
-      },
-      description: 'The size of the heading',
-      options: ['2xl', '3xl', '4xl', '5xl', '6xl', 'lg', 'md', 'sm'],
-      type: 'string',
-    },
-  },
   args: {
-    children: 'Heading element content',
+    alt: 'Daniel Sousa @TutoDS',
+    src: 'https://github.com/tutods.png',
   },
-  component: Heading,
-  title: 'Typography/Heading',
-} as Meta<HeadingProps>;
+  component: Avatar,
+  title: 'Data Display/Avatar',
+} as Meta<AvatarProps>;
 
-export const Primary: StoryObj<HeadingProps> = {};
+export const Primary: StoryObj<AvatarProps> = {};
 
-export const CustomTag: StoryObj<HeadingProps> = {
+export const WithFallback: StoryObj<AvatarProps> = {
   args: {
-    as: 'h1',
-    children: 'H1 Heading',
-  },
-  parameters: {
-    docs: {
-      description: {
-        story:
-          'By default, the Heading component renders a `h2` element, but this can be changed using the property `as`.',
-      },
-    },
+    src: undefined,
   },
 };
