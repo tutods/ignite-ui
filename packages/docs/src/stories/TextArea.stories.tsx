@@ -5,11 +5,8 @@ import { Box, Text, TextArea } from '@tutods-ignite-ui/react';
 export default {
   component: TextArea,
   decorators: [
-    (Story) => (
-      <Box
-        as="label"
-        css={{ display: 'flex', flexDirection: 'column', gap: '$1' }}
-      >
+    Story => (
+      <Box as="label" css={{ display: 'flex', flexDirection: 'column', gap: '$1' }}>
         <Text as="strong" size="sm">
           Observations
         </Text>

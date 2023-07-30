@@ -2,7 +2,6 @@ import type { ComponentProps, ElementType } from 'react';
 
 import { styled } from '@/styles';
 
-/* eslint-disable sort-keys-fix/sort-keys-fix */
 export const Button = styled('button', {
   all: 'unset',
 

@@ -13,9 +13,7 @@ export const TokensGrid = ({ hasRemValue = false, tokens }: Props) => (
 
         <p>
           <span>{value}</span>
-          {hasRemValue && (
-            <span>{Number(value.replace('rem', '')) * 16}px</span>
-          )}
+          {hasRemValue && <span>{Number(value.replace('rem', '')) * 16}px</span>}
         </p>
       </div>
     ))}

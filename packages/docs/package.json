@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "storybook dev -p 6006 --no-open",
     "build": "storybook build",
-    "lint": "eslint src/**/* --fix"
+    "lint": "eslint ./ --ignore-path ../../.gitignore --fix"
   },
   "dependencies": {
     "@tutods-ignite-ui/react": "*",
@@ -28,11 +28,19 @@
     "@storybook/react-vite": "^7.0.26",
     "@storybook/testing-library": "^0.0.14-next.2",
     "@storybook/theming": "^7.0.26",
-    "@tutods/eslint-config": "^0.6.4",
     "@types/react": "^18.2.14",
     "@types/react-dom": "^18.2.6",
     "@vitejs/plugin-react": "^4.0.2",
-    "eslint": "^8.44.0",
+    "@tutods/eslint-config": "^1.4.1",
+    "@typescript-eslint/eslint-plugin": "^6.2.0",
+    "@typescript-eslint/parser": "^6.2.0",
+    "eslint": "^8.46.0",
+    "eslint-config-prettier": "^8.9.0",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-react": "^7.33.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
     "prettier": "^3.0.0",
     "prop-types": "^15.8.1",
     "sass": "^1.63.6",

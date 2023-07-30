@@ -9,29 +9,21 @@ import {
   space,
 } from '@tutods-ignite-ui/tokens';
 
-export const {
-  config,
-  createTheme,
-  css,
-  getCssText,
-  globalCss,
-  keyframes,
-  styled,
-  theme,
-} = createStitches({
-  theme: {
-    colors,
-    fontSizes,
-    fontWeights,
-    fonts,
-    lineHeights,
-    radii,
-    space,
-  },
+export const { config, createTheme, css, getCssText, globalCss, keyframes, styled, theme } =
+  createStitches({
+    theme: {
+      colors,
+      fontSizes,
+      fontWeights,
+      fonts,
+      lineHeights,
+      radii,
+      space,
+    },
 
-  themeMap: {
-    ...defaultThemeMap,
-    height: 'space',
-    width: 'space',
-  },
-});
+    themeMap: {
+      ...defaultThemeMap,
+      height: 'space',
+      width: 'space',
+    },
+  });

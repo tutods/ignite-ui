@@ -1,6 +1,10 @@
 {
+  "name": "@tutods/ignite-ui",
   "license": "MIT",
   "scripts": {
+    "prepare": "husky install",
+    "lint": "turbo run lint",
+    "format": "prettier --write ./packages **/*.md **/*.json",
     "build": "turbo run build",
     "dev": "turbo run dev --parallel"
   },
@@ -8,7 +12,19 @@
   "workspaces": [
     "packages/*"
   ],
+  "engineStrict": true,
+  "engines": {
+    "node": ">=18.x.x",
+    "npm": "please-use-yarn",
+    "yarn": ">= 1.x.x"
+  },
   "devDependencies": {
+    "@commitlint/cli": "^17.6.7",
+    "@commitlint/config-conventional": "^17.6.7",
+    "@tutods/prettier-config": "^0.2.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.3",
+    "prettier": "^3.0.0",
     "turbo": "^1.10.7"
   }
 }

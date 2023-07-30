@@ -1,5 +1,0 @@
-{
-  "extends": [
-    "@tutods/eslint-config/react"
-  ]
-}

@@ -5,11 +5,8 @@ import { Box, Text, TextInput } from '@tutods-ignite-ui/react';
 export default {
   component: TextInput,
   decorators: [
-    (Story) => (
-      <Box
-        as="label"
-        css={{ display: 'flex', flexDirection: 'column', gap: '$1' }}
-      >
+    Story => (
+      <Box as="label" css={{ display: 'flex', flexDirection: 'column', gap: '$1' }}>
         <Text as="strong" size="sm">
           Name
         </Text>

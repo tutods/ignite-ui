@@ -1,10 +1,6 @@
 import type { ComponentProps } from 'react';
 
-import {
-  Input,
-  Prefix,
-  TextInputContainer,
-} from '@/components/TextInput/styles';
+import { Input, Prefix, TextInputContainer } from '@/components/TextInput/styles';
 
 export type TextInputProps = ComponentProps<typeof Input> & {
   /**
