@@ -3,7 +3,7 @@
   "license": "MIT",
   "scripts": {
     "prepare": "husky install",
-    "lint": "turbo run lint",
+    "lint": "eslint ./ --ignore-path .gitignore",
     "format": "prettier --write ./packages **/*.md **/*.json",
     "build": "turbo run build",
     "dev": "turbo run dev --parallel"
@@ -21,10 +21,29 @@
   "devDependencies": {
     "@commitlint/cli": "^17.6.7",
     "@commitlint/config-conventional": "^17.6.7",
+    "@tutods/eslint-config": "^1.5.0-beta.0",
     "@tutods/prettier-config": "^0.2.0",
+    "@typescript-eslint/eslint-plugin": "^6.2.0",
+    "@typescript-eslint/parser": "^6.2.0",
+    "eslint": "^8.46.0",
+    "eslint-config-prettier": "^8.9.0",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-react": "^7.33.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
     "husky": "^8.0.3",
     "lint-staged": "^13.2.3",
     "prettier": "^3.0.0",
     "turbo": "^1.10.7"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "prettier --write",
+      "eslint --ignore-path .gitignore --fix"
+    ],
+    "*.{md,mdx,json,html,css,scss,sass,less}": [
+      "prettier --write"
+    ]
   }
 }

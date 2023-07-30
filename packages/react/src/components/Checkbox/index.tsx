@@ -3,7 +3,7 @@ import { Check } from 'phosphor-react';
 
 import { CheckboxContainer, CheckboxIndicator } from '@/components/Checkbox/styles';
 
-export type CheckboxProps = ComponentProps<typeof CheckboxContainer> & {};
+export type CheckboxProps = ComponentProps<typeof CheckboxContainer>;
 
 export const Checkbox = (props: CheckboxProps) => (
   <CheckboxContainer {...props}>

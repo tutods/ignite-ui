@@ -17,19 +17,10 @@
   ],
   "scripts": {
     "build": "tsup src/index.ts --format esm,cjs --dts",
-    "dev": "tsup src/index.ts --format esm,cjs --dts --watch",
-    "lint": "eslint ./src --ignore-path ../../.gitignore --fix"
+    "dev": "tsup src/index.ts --format esm,cjs --dts --watch"
   },
   "devDependencies": {
     "@tutods-ignite-ui/ts-config": "*",
-    "@tutods/eslint-config": "^1.4.1",
-    "@typescript-eslint/eslint-plugin": "^6.2.0",
-    "@typescript-eslint/parser": "^6.2.0",
-    "eslint": "^8.46.0",
-    "eslint-config-prettier": "^8.9.0",
-    "eslint-plugin-prettier": "^5.0.0",
-    "eslint-plugin-simple-import-sort": "^10.0.0",
-    "prettier": "^3.0.0",
     "tsup": "^7.1.0"
   }
 }

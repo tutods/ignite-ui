@@ -2878,6 +2878,16 @@
     eslint-plugin-import "^2.27.5"
     eslint-plugin-unused-imports "^2.0.0"
 
+"@tutods/eslint-config@^1.5.0-beta.0":
+  version "1.5.0-beta.0"
+  resolved "https://registry.yarnpkg.com/@tutods/eslint-config/-/eslint-config-1.5.0-beta.0.tgz#5fad6eb850ac3955cf9348f2ce22bbae738e0871"
+  integrity sha512-SGFHccT61rKlwjMzWtodCaMJC4TrMztEKDqLj1qmI1BrVawUJaZ0HAZqFyODM4bYjtz1UET/g8YcrCSVXTgSFA==
+  dependencies:
+    eslint "^8.42.0"
+    eslint-import-resolver-typescript "^3.5.5"
+    eslint-plugin-import "^2.27.5"
+    eslint-plugin-unused-imports "^2.0.0"
+
 "@tutods/prettier-config@^0.2.0":
   version "0.2.0"
   resolved "https://registry.npmjs.org/@tutods/prettier-config/-/prettier-config-0.2.0.tgz"
