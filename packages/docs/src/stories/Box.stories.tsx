@@ -11,6 +11,13 @@ export default {
       </>
     ),
   },
+  argTypes: {
+    children: {
+      control: {
+        type: null,
+      },
+    },
+  },
   component: Box,
   title: 'Surfaces/Box',
 } as Meta<BoxProps>;
