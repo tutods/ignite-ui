@@ -1,6 +1,6 @@
-import type { Meta, StoryObj } from '@storybook/react';
 import type { HeadingProps } from '@tutods-ignite-ui/react';
 import { Heading } from '@tutods-ignite-ui/react';
+import type { Meta, StoryObj } from '@storybook/react';
 
 export default {
   argTypes: {

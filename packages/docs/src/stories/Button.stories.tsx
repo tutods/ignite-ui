@@ -1,7 +1,7 @@
-import type { Meta, StoryObj } from '@storybook/react';
 import type { ButtonProps } from '@tutods-ignite-ui/react';
 import { Button } from '@tutods-ignite-ui/react';
 import { ArrowRight } from 'phosphor-react';
+import type { Meta, StoryObj } from '@storybook/react';
 
 export default {
   component: Button,

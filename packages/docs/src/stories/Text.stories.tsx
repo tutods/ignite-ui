@@ -1,7 +1,7 @@
-import type { Meta, StoryObj } from '@storybook/react';
 import type { TextProps } from '@tutods-ignite-ui/react';
 import { Text } from '@tutods-ignite-ui/react';
 import { fontSizes } from '@tutods-ignite-ui/tokens';
+import type { Meta, StoryObj } from '@storybook/react';
 
 export default {
   argTypes: {

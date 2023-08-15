@@ -1,6 +1,6 @@
-import type { Meta, StoryObj } from '@storybook/react';
 import type { AvatarProps } from '@tutods-ignite-ui/react';
 import { Avatar } from '@tutods-ignite-ui/react';
+import type { Meta, StoryObj } from '@storybook/react';
 
 export default {
   args: {

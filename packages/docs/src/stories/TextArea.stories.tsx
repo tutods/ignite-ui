@@ -1,6 +1,6 @@
-import type { Meta, StoryObj } from '@storybook/react';
 import type { TextAreaProps } from '@tutods-ignite-ui/react';
 import { Box, Text, TextArea } from '@tutods-ignite-ui/react';
+import type { Meta, StoryObj } from '@storybook/react';
 
 export default {
   component: TextArea,

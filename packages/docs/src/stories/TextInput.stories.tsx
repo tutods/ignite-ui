@@ -1,6 +1,6 @@
-import type { Meta, StoryObj } from '@storybook/react';
 import type { TextInputProps } from '@tutods-ignite-ui/react';
 import { Box, Text, TextInput } from '@tutods-ignite-ui/react';
+import type { Meta, StoryObj } from '@storybook/react';
 
 export default {
   component: TextInput,

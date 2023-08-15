@@ -1,6 +1,6 @@
 {
   "extends": [
-    "@tutods/eslint-config/react-tsx",
+    "@tutods/eslint-config/react",
     "@tutods/eslint-config/prettier",
     "@tutods/eslint-config/sort-imports"
   ]

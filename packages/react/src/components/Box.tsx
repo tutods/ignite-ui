@@ -1,3 +1,5 @@
+import type { ComponentProps, ElementType } from 'react';
+
 import { styled } from '@/styles';
 
 export const Box = styled('div', {
@@ -6,3 +8,7 @@ export const Box = styled('div', {
   borderRadius: '$md',
   padding: '$4',
 });
+
+export type BoxProps = ComponentProps<typeof Box> & {
+  as?: ElementType;
+};

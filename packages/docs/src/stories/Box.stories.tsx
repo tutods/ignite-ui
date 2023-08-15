@@ -1,6 +1,6 @@
-import type { Meta, StoryObj } from '@storybook/react';
 import type { BoxProps } from '@tutods-ignite-ui/react';
 import { Box, Heading, Text } from '@tutods-ignite-ui/react';
+import type { Meta, StoryObj } from '@storybook/react';
 
 export default {
   args: {
