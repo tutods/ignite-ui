@@ -27,4 +27,6 @@ export const TextArea = styled('textarea', {
   resize: 'vertical',
 });
 
+TextArea.displayName = 'TextArea';
+
 export type TextAreaProps = ComponentProps<typeof TextArea>;

@@ -14,7 +14,7 @@ export default {
       </Box>
     ),
   ],
-  title: 'Form /TextInput',
+  title: 'Form/TextInput',
 } as Meta<TextInputProps>;
 
 export const Primary: StoryObj<TextInputProps> = {

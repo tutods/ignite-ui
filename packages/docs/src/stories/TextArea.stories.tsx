@@ -14,7 +14,7 @@ export default {
       </Box>
     ),
   ],
-  title: 'Form /TextArea',
+  title: 'Form/TextArea',
 } as Meta<TextAreaProps>;
 
 export const Primary: StoryObj<TextAreaProps> = {

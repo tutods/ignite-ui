@@ -9,6 +9,8 @@ export const Box = styled('div', {
   padding: '$4',
 });
 
+Box.displayName = 'Box';
+
 export type BoxProps = ComponentProps<typeof Box> & {
   as?: ElementType;
 };

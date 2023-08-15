@@ -21,7 +21,7 @@
   "devDependencies": {
     "@commitlint/cli": "^17.6.7",
     "@commitlint/config-conventional": "^17.6.7",
-    "@tutods/eslint-config": "^1.11.1",
+    "@tutods/eslint-config": "^1.12.0-beta.0",
     "@tutods/prettier-config": "^0.2.0",
     "@typescript-eslint/eslint-plugin": "^6.4.0",
     "@typescript-eslint/parser": "^6.2.0",
