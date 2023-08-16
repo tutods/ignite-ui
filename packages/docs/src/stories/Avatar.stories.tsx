@@ -7,6 +7,13 @@ export default {
     alt: 'Daniel Sousa @TutoDS',
     src: 'https://github.com/tutods.png',
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'string',
+      },
+    },
+  },
   component: Avatar,
   title: 'Data Display/Avatar',
 } as Meta<AvatarProps>;
