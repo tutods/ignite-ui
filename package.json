@@ -7,7 +7,10 @@
     "lint:fix": "eslint ./ --ignore-path .gitignore --fix",
     "format": "prettier --write ./packages **/*.md **/*.json *.js *.mjs *.cjs",
     "build": "turbo run build",
-    "dev": "turbo run dev --parallel"
+    "dev": "turbo run dev --parallel",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "turbo run build --filter=@tutods-ignite-ui/docs && changeset publish"
   },
   "private": true,
   "workspaces": [
@@ -20,6 +23,7 @@
     "npm": ">=8.x.x"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.26.2",
     "@commitlint/cli": "^17.7.1",
     "@commitlint/config-conventional": "^17.7.0",
     "@tutods/eslint-config": "^1.12.2-beta.0",
