@@ -1,5 +1,6 @@
-import { styled } from '@/styles';
 import { Text } from '@/components/Text';
+
+import { styled } from '@/styles';
 
 export const MultiStepContainer = styled('div', {});
 

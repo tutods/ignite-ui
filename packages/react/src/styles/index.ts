@@ -1,4 +1,3 @@
-import { createStitches, defaultThemeMap } from '@stitches/react';
 import {
   colors,
   fonts,
@@ -8,6 +7,7 @@ import {
   radii,
   space,
 } from '@tutods-ignite-ui/tokens';
+import { createStitches, defaultThemeMap } from '@stitches/react';
 
 export const { config, createTheme, css, getCssText, globalCss, keyframes, styled, theme } =
   createStitches({
