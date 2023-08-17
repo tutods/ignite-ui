@@ -1,21 +1,7 @@
 {
   "extends": [
     "@tutods/eslint-config/react",
+    "@tutods/eslint-config/sort-imports",
     "@tutods/eslint-config/prettier"
-  ],
-  "overrides": [
-    {
-      "files": "*.{jsx,js,mjs,cjs",
-      "extends": [
-        "@tutods/eslint-config/javascript"
-      ]
-    },
-    {
-      "files": "*.{ts,tsx}",
-      "extends": [
-        "@tutods/eslint-config/sort-imports",
-        "@tutods/eslint-config/typescript"
-      ]
-    }
   ]
 }
