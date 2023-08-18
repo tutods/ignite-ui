@@ -2,6 +2,7 @@
   "name": "@tutods-ignite-ui/docs",
   "version": "0.0.1",
   "main": "index.js",
+  "private": true,
   "license": "MIT",
   "scripts": {
     "dev": "storybook dev -p 6006 --no-open",
