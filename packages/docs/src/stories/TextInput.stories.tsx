@@ -26,6 +26,7 @@ export const Primary: StoryObj<TextInputProps> = {
 export const WihtPrefix: StoryObj<TextInputProps> = {
   args: {
     prefix: 'cal.com/',
+    placeholder: 'your-username',
   },
 };
 

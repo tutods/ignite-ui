@@ -5,9 +5,9 @@ import { styled } from '@/styles';
 export const AvatarContainer = styled(Avatar.Root, {
   borderRadius: '$full',
   display: 'inline-block',
-  height: '$12',
+  height: '$16',
   overflow: 'hidden',
-  width: '$12',
+  width: '$16',
 });
 
 export const AvatarImage = styled(Avatar.Image, {

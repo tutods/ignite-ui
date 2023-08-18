@@ -1,20 +1,34 @@
 import { styled } from '@/styles';
 
 export const TextInputContainer = styled('div', {
-  '&:has(input:disabled': {
+  display: 'flex',
+  alignItems: 'center',
+  border: '2px solid $colors$gray900',
+  borderRadius: '$sm',
+  boxSizing: 'border-box',
+  backgroundColor: '$gray900',
+
+  variants: {
+    size: {
+      sm: {
+        padding: '$2 $3',
+      },
+      md: {
+        padding: '$3 $4',
+      },
+    },
+  },
+
+  '&:has(input:disabled)': {
     cursor: 'not-allowed',
     opacity: 0.5,
   },
+
   '&:has(input:focus)': {
     borderColor: '$ignite300',
   },
-  alignItems: 'baseline',
-  backgroundColor: '$gray900',
-  border: '2px solid $gray900',
-  borderRadius: '$sm',
-  boxSizing: 'border-box',
-  display: 'flex',
-  padding: '$3 $4',
+
+  defaultVariant: { size: 'md' },
 });
 
 export const Prefix = styled('span', {
@@ -25,15 +39,6 @@ export const Prefix = styled('span', {
 });
 
 export const Input = styled('input', {
-  '&:disabled': {
-    cursor: 'not-allowed',
-  },
-  '&:focus': {
-    outline: 0,
-  },
-  '&:placeholder': {
-    color: '$gray400',
-  },
   backgroundColor: 'transparent',
   border: 0,
   color: '$white',
@@ -41,4 +46,16 @@ export const Input = styled('input', {
   fontSize: '$sm',
   fontWeight: '$regular',
   width: '100%',
+
+  '&:disabled': {
+    cursor: 'not-allowed',
+  },
+
+  '&:focus': {
+    outline: 0,
+  },
+
+  '&::placeholder': {
+    color: '$gray400',
+  },
 });
