@@ -11,6 +11,24 @@ export default {
     title: 'Event scheduled!',
     description: 'Friday, October 23 at 4PM',
   },
+  parameters: {
+    layout: 'centered',
+  },
+  decorators: [
+    Story => (
+      <div
+        style={{
+          minWidth: '800px',
+          height: 400,
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+        }}
+      >
+        {Story()}
+      </div>
+    ),
+  ],
 } as Meta<ToastProps>;
 
 const ToastRender = (args: ToastProps) => {
