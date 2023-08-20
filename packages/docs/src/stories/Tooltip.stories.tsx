@@ -7,17 +7,8 @@ export default {
   title: 'Data Display/Tooltip',
   args: {
     content: 'October 26 - Available',
+    children: <Button>Day 26</Button>,
   },
 } as Meta<TooltipProps>;
 
-const TooltipRender = (args: TooltipProps) => {
-  return (
-    <Tooltip {...args}>
-      <Button>Day 26</Button>
-    </Tooltip>
-  );
-};
-
-export const Primary: StoryObj<TooltipProps> = {
-  render: TooltipRender,
-};
+export const Primary: StoryObj<TooltipProps> = {};
