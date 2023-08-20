@@ -1,5 +1,11 @@
 # @tutods-ignite-ui/react
 
+## 2.1.2
+
+### Patch Changes
+
+- Add display name on tooltip
+
 ## 2.1.1
 
 ### Patch Changes

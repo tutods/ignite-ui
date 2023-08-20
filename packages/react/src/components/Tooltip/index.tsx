@@ -32,3 +32,5 @@ export const Tooltip = ({ children, content, side = 'top' }: TooltipProps) => {
     </RadixTooltip.Provider>
   );
 };
+
+Tooltip.displayName = 'Tooltip';
