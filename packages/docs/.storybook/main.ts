@@ -17,6 +17,9 @@ const config: StorybookConfig = {
   docs: {
     autodocs: true,
   },
+  typescript: {
+    reactDocgen: 'react-docgen-typescript',
+  },
   viteFinal: (config, { configType }) => {
     if (configType === 'PRODUCTION') {
       config.base = '/ignite-ui/';
