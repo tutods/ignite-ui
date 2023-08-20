@@ -1,6 +1,6 @@
 # `@tutods-ignite-ui`
 
-[![Stargazers][stars-shield]][stars-url] [![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url] [![Forks][forks-shield]][forks-url] [![Docs][docs-shield]][docs-url]
 
 ---
 
@@ -36,3 +36,5 @@ This monorepo contains two packages:
 [forks-url]: https://github.com/tutods/ignite-ui/network/members
 [stars-shield]: https://img.shields.io/github/stars/tutods/ignite-ui?style=for-the-badge
 [stars-url]: https://github.com/tutods/ignite-ui/stargazers
+[docs-shield]: https://img.shields.io/badge/components%20docs-updated-blue?style=for-the-badge&logo=storybook&logoColor=white
+[docs-url]: https://tutods.github.io/ignite-ui/
