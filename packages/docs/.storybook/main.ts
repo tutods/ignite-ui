@@ -1,6 +1,15 @@
 import { dirname, join } from 'path';
 import { StorybookConfig } from '@storybook/react-vite';
 import * as sass from 'sass';
+
+/**
+ * This function is used to resolve the absolute path of a package.
+ * It is needed in projects that use Yarn PnP or are set up within a monorepo.
+ */
+function getAbsolutePath(packageName: string): any {
+  return dirname(require.resolve(join(packageName, 'package.json')));
+}
+
 const config: StorybookConfig = {
   stories: ['../src/pages/**/*.mdx', '../src/stories/**/*.stories.tsx'],
   addons: [
@@ -29,10 +38,3 @@ const config: StorybookConfig = {
   },
 };
 export default config;
-/**
- * This function is used to resolve the absolute path of a package.
- * It is needed in projects that use Yarn PnP or are set up within a monorepo.
- */
-function getAbsolutePath(value: string): any {
-  return dirname(require.resolve(join(value, 'package.json')));
-}
