@@ -34,3 +34,12 @@ export const WithTimeout: StoryObj<ToastProps> = {
     timeout: 5000,
   },
 };
+
+export const WithoutCloseButton: StoryObj<ToastProps> = {
+  render: ToastRender,
+  name: 'Toast withhout close button',
+  args: {
+    timeout: 5000,
+    showClose: false,
+  },
+};
