@@ -1,5 +1,11 @@
 # @tutods-ignite-ui/react
 
+## 2.2.0
+
+### Minor Changes
+
+- Fix styles on toast component
+
 ## 2.1.2
 
 ### Patch Changes

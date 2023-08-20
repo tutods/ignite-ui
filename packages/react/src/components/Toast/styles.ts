@@ -8,13 +8,13 @@ const hide = keyframes({
 });
 
 const slideIn = keyframes({
-  from: { transform: 'translateX(-100%)' },
+  from: { transform: 'translateX(100%)' },
   to: { transform: 'translateX(0)' },
 });
 
 const swipeOut = keyframes({
   from: { transform: 'translateX(0)' },
-  to: { transform: `translateX(-100%)` },
+  to: { transform: `translateX(100%)` },
 });
 
 const ToastViewport = styled(Toast.Viewport, {

@@ -19,7 +19,7 @@ export default {
       <div
         style={{
           minWidth: '800px',
-          height: 400,
+          height: 350,
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
