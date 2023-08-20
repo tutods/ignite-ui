@@ -35,12 +35,10 @@ const TooltipContent = styled(Tooltip.Content, {
   animationTimingFunction: 'ease-in-out',
   willChange: 'transform, opacity',
 
-  '&[data-state="delayed-open"]': {
-    '&[data-side="top"]': { animationName: slideDownAndFade },
-    '&[data-side="right"]': { animationName: slideLeftAndFade },
-    '&[data-side="bottom"]': { animationName: slideUpAndFade },
-    '&[data-side="left"]': { animationName: slideRightAndFade },
-  },
+  '&[data-side="top"]': { animationName: slideDownAndFade },
+  '&[data-side="right"]': { animationName: slideLeftAndFade },
+  '&[data-side="bottom"]': { animationName: slideUpAndFade },
+  '&[data-side="left"]': { animationName: slideRightAndFade },
 });
 
 const TooltipArrow = styled(Tooltip.Arrow, {
